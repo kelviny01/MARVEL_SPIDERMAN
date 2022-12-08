@@ -13,6 +13,10 @@
     --color-dark: #1d1d1d;
 }
 
+body {
+    overflow: hidden;
+}
+
 header {
     width: auto;
     height: 100vh;
@@ -27,7 +31,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 92.5vh;
+    height: 100vh;
     padding: 20px 15px;
     background-color: rgba(29 29 29 / 0.5);
     width: fit-content;
